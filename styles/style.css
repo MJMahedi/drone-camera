@@ -1,3 +1,23 @@
-h1{
+.introduce-drone{
     background-color: chocolate;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    /* grid-template-columns : repeat(2, 1fr); */
+
+}
+.popular-drone{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-column-gap: 24px;
+}
+.popular-all-drone{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    
+
+}
+footer{
+    background-color: darkblue;
 }
