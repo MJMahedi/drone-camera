@@ -23,6 +23,9 @@
      animation-iteration-count: 3;
 
  }
+ .id{
+     background-color: rgb(0, 255, 34);
+ }
   .box2{
      height: 25px;
      width: 25px;
@@ -67,10 +70,17 @@
  }
 
 .container{
-    padding: 30px 50px;
+     padding: 30px 50px; 
+   
     
 
 }
+/* a : hover {
+    color: coral;
+} */
+/* .a :hover{
+    color: coral;
+} */
 .introduce-drone{
     /* background-color: chocolate; */
     display: flex;
@@ -145,11 +155,19 @@
 .about-drone{
     color: #787885;
 }
+
+/* effect  */
+
 /* Button Style  */
-.link-button{
+a.link-button:hover {
+    color: red;
+    background-color: #bd8f693b;
+    /* background-color: rgb(0, 255, 34); */
+}
+a.link-button{
     font-size: 25px;
     text-decoration: none;
-    background-color: #E02C6D;
+    background-color: slategrey; 
     padding: 10px 10px;
    color: rgb(245, 247, 243);
    position: absolute ;
@@ -160,7 +178,7 @@
     text-decoration: none;
     background-color: #E02C6D;
     padding: 10px 10px;
-   color: rgb(245, 247, 243);
+   color: rgb(247, 243, 243);
    position: absolute ;
  
 }
@@ -282,4 +300,4 @@ footer{
     grid-row-gap: 20px;
 }
 }
-}
+
