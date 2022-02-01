@@ -75,9 +75,15 @@
     
 
 }
-/* a : hover {
-    color: coral;
-} */
+.section-title {
+    font-size: 50px;
+    text-align: center;
+}
+.section-title:hover{
+    color: rgb(23, 240, 23);
+   
+}
+
 /* .a :hover{
     color: coral;
 } */
@@ -123,13 +129,14 @@
     /* text-decoration: none;
     position: absolute;
     background-color: tomato; */
-    
-    text-decoration: none;
-    
     display: flex;
     justify-content: flex-end;
-    width: 90%;
-    position: absolute;
+    align-items: center;
+    flex-wrap: nowrap;
+    position: sticky;
+    text-decoration: none;
+    
+    position: sticky;
     font-size: 30px;
     color: rgb(228, 16, 16);
     
@@ -151,6 +158,15 @@
      border-radius: 7px;
     
 
+}
+.more-about-drone{
+    display: flex;   
+     align-items: center;
+    /* justify-content: space-around; */
+    padding-bottom: 35px;
+}
+.main-drone-img{
+/* padding-right: 70px; */
 }
 .about-drone{
     color: #787885;
@@ -208,13 +224,14 @@ a.link-button{
 }
 
 .cinema-1 {
-        padding-top: 30px;
+   
+        /* padding-top: 30px; */
         font-size: 20px;
-        width: 50%;
-        height: 80%;
+         width: 50%; 
+        /* height: 80%;
         padding-right: 7%; 
         padding-top: 10%;
-        border-radius: none;
+        border-radius: none; */
         /* background-color: rgba(193, 240, 82, 0.671);*/  
 }
 .cinema-1 h1{
@@ -222,12 +239,7 @@ a.link-button{
         font-size: 40px;
  
 }
-.cinema-1 img{
-        width: 80%;
-        padding-left: 10%;
-        padding-top: 5%;
-     
-}
+
 .cinema-1 p{
    color: #787885; 
 }
@@ -247,22 +259,20 @@ footer{
             Resulation 360*740 px
             */
 
- @media only screen and (min-width:300px) and (max-width:360px) {
+ @media only screen and (max-width:375px) {
      .introduce-drone{
          display: flex;
          flex-direction: column;
          align-content: center;
          align-items: center;
      }
-     .main-drone img{
-        display: grid;
-        align-content: center;
+     .main-drone-img {
+         /* display: grid;
+        align-content: center;  */
         width: 360px;
         height: 180px;
         padding-top: 100px;
-    
-    
-    
+
     }
      .popular-drone{
          display: grid;
@@ -287,12 +297,32 @@ footer{
         
     }
  }
- @media only screen and (min-width:688px) and (max-width:992px) {
+ @media only screen and (min-width:376px) and (max-width:992px) {
     .introduce-drone{
         display: flex;
         flex-direction: column;
         align-content: center;
         align-items: center;
+    }
+   /* .section-title {
+        font-size: 50px;
+        text-align: center;
+    } */
+   
+    .main-drone{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        padding: 30px;
+        order: 2;
+        
+    }
+    a.link-button{
+        position: inherit;
+    }
+    .main-drone-img{
+        order: 1;
+        padding-top: 100px;
     }
    .popular-drone{ display: grid;
     grid-template-columns: repeat(2, 1fr);
