@@ -1,333 +1,337 @@
 /* animation  */
- .box, .box1{
-     height: 100px;
-     width: 100px;
-     border-radius: 30px;
-     background-color: darkred;
-     position: relative;
-     animation-name: Mahedi;
-     animation-duration: 4s;
-     animation-delay: 1.5s;
-     animation-iteration-count: 3;
+.box, .box1{
+    height: 100px;
+    width: 100px;
+    border-radius: 30px;
+    background-color: darkred;
+    position: relative;
+    animation-name: Mahedi;
+    animation-duration: 4s;
+    animation-delay: 1.5s;
+    animation-iteration-count: 3;
 
- }
-  .box1{
-     height: 50px;
-     width: 50px;
-     border-radius: 30px;
-     background-color: darkred;
-     position: center;
-     animation-name: Mahedi;
-     animation-duration: 4s;
-     animation-delay: 1.5s;
-     animation-iteration-count: 3;
+}
+ .box1{
+    height: 50px;
+    width: 50px;
+    border-radius: 30px;
+    background-color: darkred;
+    position: center;
+    animation-name: Mahedi;
+    animation-duration: 4s;
+    animation-delay: 1.5s;
+    animation-iteration-count: 3;
 
- }
- .id{
-     background-color: rgb(0, 255, 34);
- }
-  .box2{
-     height: 25px;
-     width: 25px;
-     border-radius: 15px;
-     background-color: darkred;
-     position: relative;
-     animation-name: Mahedi;
-     animation-duration: 4s;
-     animation-delay: 1.5s;
-     animation-iteration-count: 3;
+}
+.id{
+    background-color: rgb(0, 255, 34);
+}
+ .box2{
+    height: 25px;
+    width: 25px;
+    border-radius: 15px;
+    background-color: darkred;
+    position: relative;
+    animation-name: Mahedi;
+    animation-duration: 4s;
+    animation-delay: 1.5s;
+    animation-iteration-count: 3;
 
- }
- /* animation  */
- @keyframes Mahedi {
+}
+/* animation  */
+@keyframes Mahedi {
+   
+    0%{
+        background-color:red ;
+        left: 100%;
+        top: 0;
+    }
+    25%{
+        background-color:blue ;
+        left: 75%;
+        top: 0;
+    }
+    50%{
+        background-color: skyblue ;
+        left: 300px;
+        top: 200px;
+    }
+    75%{
+        background-color:green;
+        left: 0;
+        top: 200px;
+    }
+    100%{
+        background-color:yellow ;
+        left: 100px;
+        top: 0;
+    }
     
-     0%{
-         background-color:red ;
-         left: 100%;
-         top: 0;
-     }
-     25%{
-         background-color:blue ;
-         left: 75%;
-         top: 0;
-     }
-     50%{
-         background-color: skyblue ;
-         left: 300px;
-         top: 200px;
-     }
-     75%{
-         background-color:green;
-         left: 0;
-         top: 200px;
-     }
-     100%{
-         background-color:yellow ;
-         left: 100px;
-         top: 0;
-     }
-     
- }
+}
 
 .container{
-     padding: 30px 50px; 
+    padding: 30px 50px; 
+  
    
-    
 
 }
 .section-title {
-    font-size: 50px;
-    text-align: center;
+   font-size: 50px;
+   text-align: center;
 }
 .section-title:hover{
-    color: rgb(23, 240, 23);
-   
+   color: rgb(23, 240, 23);
+  
 }
 
 /* .a :hover{
-    color: coral;
+   color: coral;
 } */
 .introduce-drone{
-    /* background-color: chocolate; */
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    /* grid-template-columns : repeat(2, 1fr); */
+   /* background-color: chocolate; */
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   /* grid-template-columns : repeat(2, 1fr); */
 
 }
 .main-drone h1{
-    color: #3A3A3A;   
-    font-family: 'Poppins', sans-serif;
-    line-height: 50px;  
-    font-size: 30px;
+   color: #3A3A3A;   
+   font-family: 'Poppins', sans-serif;
+   line-height: 50px;  
+   font-size: 30px;
 
 
 }
 
 .popular-drone-title{
-    text-align: center;
-    /* background-color: crimson; */
-    font-family: 'Poppins', sans-serif;
-    /* display: grid;
-    justify-content: center; */
-    font-size: 28px;
+   text-align: center;
+   /* background-color: crimson; */
+   font-family: 'Poppins', sans-serif;
+   /* display: grid;
+   justify-content: center; */
+   font-size: 28px;
 }
 /* .popular-drone-container{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 24px;
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-column-gap: 24px;
 
 } */
 .popular-drone{
-    display: grid;
-    grid-template-columns: repeat(3, 1fr);
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
-    
+   display: grid;
+   grid-template-columns: repeat(3, 1fr);
+   grid-column-gap: 20px;
+   grid-row-gap: 20px;
+   
 }
 .see-more>a{
-    /* text-decoration: none;
-    position: absolute;
-    background-color: tomato; */
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    flex-wrap: nowrap;
-    position: sticky;
-    text-decoration: none;
-    
-    position: sticky;
-    font-size: 30px;
-    color: rgb(228, 16, 16);
-    
-    
+   /* text-decoration: none;
+   position: absolute;
+   background-color: tomato; */
+   display: flex;
+   justify-content: flex-end;
+   align-items: center;
+   flex-wrap: nowrap;
+   position: sticky;
+   text-decoration: none;
+   
+   position: sticky;
+   font-size: 30px;
+   color: rgb(228, 16, 16);
+   
+   
 }
 
 .popular-all-drone{
-    /* background-color: darkgoldenrod; */
-    width: 329px;
-    height: 476px;
-    /* margin: 5px; */
-    
-    display: flex;
-    flex-direction: column;
+   /* background-color: darkgoldenrod; */
+   width: 329px;
+   height: 476px;
+   /* margin: 5px; */
    
-    /* align-items: center; */
-     padding: 10px;
-     box-shadow: 10px 10px 10px 10px #aaaaaab6;
-     border-radius: 7px;
-    
+   display: flex;
+   flex-direction: column;
+  
+   /* align-items: center; */
+    padding: 10px;
+    box-shadow: 10px 10px 10px 10px #aaaaaab6;
+    border-radius: 7px;
+   
 
 }
 .more-about-drone{
-    display: flex;   
-     align-items: center;
-    /* justify-content: space-around; */
-    padding-bottom: 35px;
+   display: flex;   
+    align-items: center;
+   /* justify-content: space-around; */
+   padding-bottom: 35px;
 }
 .main-drone-img{
 /* padding-right: 70px; */
 }
 .about-drone{
-    color: #787885;
+   color: #787885;
+   font-size: small;
+   line-height: 1rem;
 }
 
 /* effect  */
 
 /* Button Style  */
 a.link-button:hover {
-    color: red;
-    background-color: #bd8f693b;
-    /* background-color: rgb(0, 255, 34); */
+   color: red;
+   background-color: #bd8f693b;
+   /* background-color: rgb(0, 255, 34); */
 }
 a.link-button{
-    font-size: 25px;
-    text-decoration: none;
-    background-color: slategrey; 
-    padding: 10px 10px;
-   color: rgb(245, 247, 243);
-   position: absolute ;
-   border-radius: 41px;
+   font-size: 25px;
+   text-decoration: none;
+   background-color: slategrey; 
+   padding: 10px 10px;
+  color: rgb(245, 247, 243);
+  position: absolute ;
+  border-radius: 41px;
 }
 .link-button1{
-    font-size: 25px;
-    text-decoration: none;
-    background-color: #E02C6D;
-    padding: 10px 10px;
-   color: rgb(247, 243, 243);
-   position: absolute ;
- 
+   font-size: 25px;
+   text-decoration: none;
+   background-color: #E02C6D;
+   padding: 10px 10px;
+  color: rgb(247, 243, 243);
+  position: absolute ;
+
 }
 .fa-star.filled{
 
-    color: #FFC014;
+   color: #FFC014;
 }
 .fa-star.empty{
 
-    color: #f5eed9;
+   color: #f5eed9;
 }
 .drone-rating{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 40%;
-    
-    
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   width: 40%;
+   
+   
 
 }
 
 .container1{
-    display: flex;
-    background-position: center;
-    width: 100%;
-    /* height: 270px; */
+   display: flex;
+   background-position: center;
+   width: 100%;
+   /* height: 270px; */
 }
 
 .cinema-1 {
-   
-        /* padding-top: 30px; */
-        font-size: 20px;
-         width: 50%; 
-        /* height: 80%;
-        padding-right: 7%; 
-        padding-top: 10%;
-        border-radius: none; */
-        /* background-color: rgba(193, 240, 82, 0.671);*/  
+  
+       /* padding-top: 30px; */
+       font-size: 20px;
+        width: 50%; 
+       /* height: 80%;
+       padding-right: 7%; 
+       padding-top: 10%;
+       border-radius: none; */
+       /* background-color: rgba(193, 240, 82, 0.671);*/  
 }
 .cinema-1 h1{
-    
-        font-size: 40px;
- 
+   
+       font-size: 40px;
+
 }
 
 .cinema-1 p{
-   color: #787885; 
+  color: #787885; 
 }
 
-   /* FOOTER  */
-    
+  /* FOOTER  */
+   
 footer{
-    background-color: #0A0826;
-    color: cornsilk;
-    text-align: center;
+   background-color: #0A0826;
+   color: cornsilk;
+   text-align: center;
 }
 
 
-            /* Media quaries 
-            mobile devices 
-            Samsung Galaxy S 8 
-            Resulation 360*740 px
-            */
+           /* Media quaries 
+           mobile devices 
+           Samsung Galaxy S 8 
+           Resulation 360*740 px
+           */
 
- @media only screen and (max-width:375px) {
-     .introduce-drone{
-         display: flex;
-         flex-direction: column;
-         align-content: center;
-         align-items: center;
-     }
-     .main-drone-img {
-         /* display: grid;
-        align-content: center;  */
-        width: 360px;
-        height: 180px;
-        padding-top: 100px;
-
-    }
-     .popular-drone{
-         display: grid;
-         justify-content: center;
-         grid-template-columns: repeat(1, 1fr);
-     }
-     .container1{
-         flex-direction: column;
-         align-items: center;
-     }
-     .cinema-1 img {
-        width: 250px;
-        height: 100%;
-        /* padding-left: 10%; */
-        padding-top: 5%;
-        height: 280px;
-    }
-     .cinema-1{
-        width: 250px;
-        height: 100%;
-        /* padding-left: 10%; */ 
-        
-    }
- }
- @media only screen and (min-width:376px) and (max-width:992px) {
+@media only screen and (max-width:375px) {
     .introduce-drone{
         display: flex;
         flex-direction: column;
         align-content: center;
         align-items: center;
     }
-   /* .section-title {
-        font-size: 50px;
-        text-align: center;
-    } */
-   
-    .main-drone{
-        display: flex;
+    .main-drone-img {
+        /* display: grid;
+       align-content: center;  */
+       width: 360px;
+       height: 180px;
+       padding-top: 100px;
+
+   }
+    .popular-drone{
+        display: grid;
+        justify-content: center;
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .container1{
         flex-direction: column;
         align-items: center;
-        padding: 30px;
-        order: 2;
-        
     }
-    a.link-button{
-        position: inherit;
-    }
-    .main-drone-img{
-        order: 1;
-        padding-top: 100px;
-    }
-   .popular-drone{ display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 20px;
-    grid-row-gap: 20px;
+    .cinema-1 img {
+       width: 250px;
+       height: 100%;
+       /* padding-left: 10%; */
+       padding-top: 5%;
+       height: 280px;
+   }
+    .cinema-1{
+       width: 250px;
+       height: 100%;
+       /* padding-left: 10%; */ 
+       
+   }
+}
+@media only screen and (min-width:376px) and (max-width:992px) {
+   .introduce-drone{
+       display: flex;
+       flex-direction: column;
+       align-content: center;
+       align-items: center;
+   }
+  /* .section-title {
+       font-size: 50px;
+       text-align: center;
+   } */
+  
+   .main-drone{
+       display: flex;
+       flex-direction: column;
+       align-items: center;
+       padding: 30px;
+       order: 2;
+       
+   }
+   a.link-button{
+       /* position: relative; */
+       /* background-color: red; */
+       font-size: small;
+   }
+   .main-drone-img{
+       order: 1;
+       padding-top: 100px;
+   }
+  .popular-drone{ display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-column-gap: 20px;
+   grid-row-gap: 20px;
 }
 }
 
